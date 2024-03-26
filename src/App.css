@@ -1,0 +1,111 @@
+/* ---global--- */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Stratos Deliveroo Web;
+  background-color: #f3f5f5;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 32px;
+
+  color: #2e3333;
+}
+h3 {
+  font-family: IBM Plex Sans;
+  color: #868a8a;
+  font-size: 19px;
+  line-height: 28px;
+}
+h4 {
+  padding: 20px 0;
+  font-size: 24px;
+  color: #2e3333;
+}
+h5 {
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 15px;
+}
+p {
+  font-family: IBM Plex Sans;
+  color: #868a8a;
+  font-size: 14px;
+  padding-bottom: 20px;
+  line-height: 20px;
+}
+
+/* ---header--- */
+header {
+  background-color: white;
+}
+
+.firstHeader {
+  border-bottom: 1px solid lightgray;
+}
+.firstHeader img {
+  height: 40px;
+  margin: 10px 0;
+}
+.secondHeader {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.secondHeader h3 {
+  margin-top: 40px;
+}
+.img1 {
+  width: calc(100% / 2);
+}
+.img1 img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* ---main--- */
+
+.mainLeft {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.restaurantContainer {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+  height: 160px;
+  width: calc(35%);
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.mainLeft img {
+  width: 130px;
+  height: 130px;
+  margin-left: 20px;
+  object-fit: cover;
+}
+.price {
+  font-size: 17px;
+
+  font-family: IBM Plex Sans;
+  color: #868a8a;
+}
+.populaire {
+  font-size: 14px;
+
+  margin-left: 20px;
+  color: #ff8000;
+  line-height: 17px;
+}
